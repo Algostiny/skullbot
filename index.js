@@ -60,7 +60,7 @@ bot.on('message', async (message) => {
     };
 });
 
-bot.login(config.token);
+bot.login(config.token); // ;p fuck you
 module.exports.cooldown = (id,time) =>{
     cooldowns[id] = time;
     setTimeout(()=>{
