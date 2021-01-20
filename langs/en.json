@@ -1,0 +1,26 @@
+{
+    "language": "en",
+    "8ball": {
+        "error": ["<:pepe_rage:798416743256948774> Eu não tenho permissão", "Esse comando requer a permissão `MANAGE_WEBHOOKS`", "<:pepe_boomer:798416743492091954> Você esqueceu de algo", "Eu preciso de uma pergunta para responder. `*8ball <pergunta>`"],
+        "response" : {
+            "8ball": ["no", "yes", "probably not", "maybe", "probably"],
+            "shrek": [":rage: no","AAAAAAAAAAAHHHHHHHHHHHHHHHH", "yes, and", "i dont know lol", ":face_vomiting: now I know 2 donkeys"],
+            "monkey": [":monkey: uaaa aaauu yes", ":banana: banana yum yum", "monkey say no, monkey think no", "I don't know bye :monkey_face:", "1 + 1 = 2??? :thinking:"],
+            "moyai": [":moyai: According to my immense wisdom I would say yes...", "moyai don't understand", "nor the gods would understand that","no. why? why no","you should ask yourself that"],
+            "einstein": ["My theories point that yes", ":zany_face: look at the picture", "I honestly think not, given the information I have", "I have no theory that tests something like this", "idk xDDD"]
+        }
+    },
+    "help": {
+        "response": ["Aliases", "Usage", "Description", "Accessibility","[Support](https://discord.gg/4Nzf39JG8U) - [Invite](https://discord.com/oauth2/authorize?client_id=798370987007016990&scope=bot&permissions=1039662833) - Algostiny#8340\nMy prefix is `"]
+    },
+    "prefix": {
+        "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to servers", "<:pepe_boomer:798416743492091954> You forgot something", "I need a new prefix to place. `*prefix <new prefix>`"],
+        "response": ["<a:jotaro_dance:798401732584931348> The prefix has been successfully changed", "Now the new prefix for this server is "]
+    },
+    "lang":{
+        "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to servers"]
+    },
+    "say": {
+        "error": ["<:pepe_boomer:798416743492091954> You forgot something", "I need to have something to say. `*say <my speech>`"]
+    }   
+}

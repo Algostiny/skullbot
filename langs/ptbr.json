@@ -1,0 +1,33 @@
+{
+    "language": "ptbr",
+    "cum": {
+        "error": ["<:pepe_rage:798416743256948774> Não é possível usar isso aqui", "Esse comando é restrito a canais `NSFW`", "<:pepe_boomer:798416743492091954> Você esqueceu de algo","É necessário um alvo. `*cum <alvo>`"],
+        "response": "gozou em"
+    },
+    "8ball": {
+        "error": ["<:pepe_rage:798416743256948774> Eu não tenho permissão", "Esse comando requer a permissão `MANAGE_WEBHOOKS`", "<:pepe_boomer:798416743492091954> Você esqueceu de algo", "Eu preciso de uma pergunta para responder. `*8ball <pergunta>`"],
+        "response" : {
+            "8ball": ["não", "sim", "provavelmente não", "talvez", "provavelmente"],
+            "shrek": [":rage: não","AAAAAAAAAAAHHHHHHHHHHHHHHHH", "sim, idai", "e eu sla", ":face_vomiting: agora eu conheço 2 burros"],
+            "monkey": [":monkey: uaaa aaauu sim", ":banana: banana yum yum", "macaco diz não, macaco acha que não", "mim não saber tchau :monkey_face:", "1 + 1 = 2 é real??? :thinking:"],
+            "moyai": [":moyai: Segundo minha sabedoria imensa eu diria que sim...", "moyai não entender", "nem os deuses entenderiam isso","não, pq? pq eu disse","deveria se perguntar isso"],
+            "einstein": ["Minhas teorias apontam que sim", ":zany_face: olha a foto", "Eu sinceramente acho que não, perante as informações que eu tenho", "Não possuo teoria que teste algo assim", "Estude e descubra oras"]
+        }
+    },
+    "help": {
+        "response": ["Aliases", "Uso", "Descrição", "Acessibilidade","[Suporte](https://discord.gg/4Nzf39JG8U) - [Invite](https://discord.com/oauth2/authorize?client_id=798370987007016990&scope=bot&permissions=1039662833) - Algostiny#8340\nO prefixo atual é `"]
+    },
+    "prefix": {
+        "error": ["<:pepe_rage:798416743256948774> Não é possível usar isso aqui", "Esse comando é restrito a servidores","<:pepe_rage:798416743256948774> Você não possui permissão","É necessário a permissão `MANAGE_SERVER` ou `ADMINISTRATOR`", "<:pepe_boomer:798416743492091954> Você esqueceu de algo", "Eu preciso de um novo prefixo para colocar. `*prefix <novo prefixo>`"],
+        "response": ["<a:jotaro_dance:798401732584931348> O prefixo foi mudado com sucesso", "Agora o novo prefixo desse servidor é "]
+    },
+    "lang":{
+        "error": ["<:pepe_rage:798416743256948774> Não é possível usar isso aqui", "Esse comando é restrito a servidores","<:pepe_rage:798416743256948774> Você não possui permissão","É necessário a permissão `MANAGE_SERVER` ou `ADMINISTRATOR`"]
+    },
+    "rule34":{
+        "error": ["<:pepe_rage:798416743256948774> Não é possível usar isso aqui", "Esse comando é restrito a canais `NSFW`", "<:pepe_boomer:798416743492091954> Você esqueceu de algo", "Eu preciso ter o que procurar no Rule34. `*r34 <tags>`","<:pepe_sad:800612967027965973> Não encontrei nada", "Infelizmente não há nada assim no Rule34"]
+    },
+    "say": {
+        "error": ["<:pepe_boomer:798416743492091954> Você esqueceu de algo", "Eu preciso ter o que falar. `*say <minha fala>`"]
+    }   
+}
