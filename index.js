@@ -37,12 +37,10 @@ bot.on('ready',  () => {
 });
 
 bot.on('message', async (message) => {
-    if(message.channel.type=="dm"){
-        var prefix = "*";
-    }
-    else{
-        var prefix = await database.get(`Guilds/${message.guild.id}/Prefix`) || "*";
-    };
+    const guild_db = (message.channel.type=='dm') ? {prefix: "*", lang: "en"} : (await database.get(`Guilds/${message.guild.id}/`)) ? await database.get(`Guilds/${message.guild.id}/`) : {prefix: "*", lang: "en"}
+    let prefix = guild_db.prefix;
+    let lang = guild_db.lang;
+
     if(!message.content.startsWith(prefix)||message.author.bot&&message.author.id==569277281046888488) return;
     const message_array = message.content.slice(prefix.length).split(' ');
     const args = message_array.slice(1);
@@ -50,17 +48,12 @@ bot.on('message', async (message) => {
     if(cooldowns[message.author.id]) return message.channel.send("cooldown!")
     const command_file = bot.commands.get(command) || bot.commands.get(bot.aliases.get(command));
     if(command_file){
-        if(message.channel.type=="dm"){
-            var lang = require('./langs/en.json')[command_file.config.name]   
-        }
-        else{
-            var lang = (await database.get(`Guilds/${message.guild.id}/Lang`) == "ptbr") ? require('./langs/ptbr.json')[command_file.config.name] : require('./langs/en.json')[command_file.config.name];
-        }
+        let lang = require(`./langs/${guild_db.lang}`)[bot.aliases.get(command) || command];
         command_file.run(bot, message, args, lang, database, prefix);
     };
 });
 
-bot.login(config.token); // ;p fuck you
+bot.login('Nzk4MzcwOTg3MDA3MDE2OTkw.X_0C7A.fpo7zFQ4ywk-dQ2oJvIAaUfR0ns'); // ;p fuck you
 module.exports.cooldown = (id,time) =>{
     cooldowns[id] = time;
     setTimeout(()=>{

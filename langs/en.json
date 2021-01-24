@@ -13,12 +13,19 @@
     "help": {
         "response": ["Aliases", "Usage", "Description", "Accessibility","[Support](https://discord.gg/4Nzf39JG8U) - [Invite](https://discord.com/oauth2/authorize?client_id=798370987007016990&scope=bot&permissions=1039662833) - Algostiny#8340\nMy prefix is `"]
     },
+    "hqdesexo": {
+        "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to `NSFW` channels"],
+        "response": ["Name"]
+    },
     "prefix": {
         "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to servers", "<:pepe_boomer:798416743492091954> You forgot something", "I need a new prefix to place. `*prefix <new prefix>`"],
         "response": ["<a:jotaro_dance:798401732584931348> The prefix has been successfully changed", "Now the new prefix for this server is "]
     },
     "lang":{
         "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to servers"]
+    },
+    "rule34":{
+        "error": ["<:pepe_rage:798416743256948774> You can't use this here", "This command is restricted to `NSFW` channels", "<:pepe_boomer:798416743492091954> You forgot something", "I need to have something to search in Rule34. `*r34 <tags>`","<:pepe_sad:800612967027965973> I found nothing", "Unfortunately there is nothing like that in Rule34"]
     },
     "say": {
         "error": ["<:pepe_boomer:798416743492091954> You forgot something", "I need to have something to say. `*say <my speech>`"]
