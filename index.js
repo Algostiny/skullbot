@@ -53,7 +53,7 @@ bot.on('message', async (message) => {
     };
 });
 
-bot.login('Nzk4MzcwOTg3MDA3MDE2OTkw.X_0C7A.fpo7zFQ4ywk-dQ2oJvIAaUfR0ns'); // ;p fuck you
+bot.login('shutfuckgay'); // :p
 module.exports.cooldown = (id,time) =>{
     cooldowns[id] = time;
     setTimeout(()=>{
